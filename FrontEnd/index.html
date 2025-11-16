@@ -178,7 +178,6 @@ document.getElementById("scanForm").addEventListener("submit", async (e) => {
                         <td><span class="badge ${severityClass}">${vuln.Severity}</span></td>
                         <td>${vuln.InstalledVersion || 'N/A'}</td>
                         <td>${vuln.FixedVersion || 'N/A'}</td>
-                        <td>${vuln.Title || 'No details available'}</td>
                     </tr>`;
                 });
             }
